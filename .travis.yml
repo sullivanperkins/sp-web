@@ -11,3 +11,5 @@ matrix:
   allow_failures:
     - php: nightly
 
+notifications:
+  slack: slvndev:Q2PdYlERD5K7KxeqyeaOvhWD

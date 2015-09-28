@@ -29,3 +29,6 @@ script:
   - npm run jshint
   - npm run jscs
   - phpcs --standard=ruleset.xml --extensions=php -n -s .
+  
+notifications:
+  slack: slvndev:Q2PdYlERD5K7KxeqyeaOvhWD

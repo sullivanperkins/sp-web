@@ -1,0 +1,102 @@
+
+.client-logo{
+  margin-top:25px;
+
+  h1{
+    font-family:$roboto;
+    font-weight: 100;
+    margin:0px 0px 20px 0px;
+    color:$sp-yellow;
+    font-size: 35px;
+    line-height: 40px;
+
+  }
+
+}
+
+
+
+
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+    margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+  left: -12px;
+}
+.carousel-control.right {
+  right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+  background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
+
+.client-news{
+  background-color:$sp-yellow;
+  padding:25px;
+
+  h1{
+    font-family:$roboto;
+    font-weight: 100;
+    margin:0px 0px 10px 0px;
+    color:$sp-grey;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2{
+    font-family:$roboto;
+    font-weight: 300;
+    margin:0px 0px 5px 15px;
+    color:$sp-grey;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  p{
+    font-family:$roboto;
+    font-weight: 100;
+    margin:0px 0px 5px 15px;
+    color:$white;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+}
+.home-tweet{
+  // background-color:$sp-yellow;
+  padding:25px;
+  width:375px;
+  height:175px;
+  background: url(../images/twitter-bg.png);
+  background-repeat:no-repeat;
+    background-size: 100% 100%;
+p{
+    font-family:$roboto;
+    font-weight: 100;
+    margin:0px 0px 5px 15px;
+    color:$sp-grey;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+}
+.home-twitter{
+  background-color:$sp-grey;
+  padding:25px;
+  
+  // background: url(../images/twitter-bg.png);
+  
+}

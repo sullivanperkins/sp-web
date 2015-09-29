@@ -28,6 +28,11 @@
     'home': {
       init: function() {
         // JavaScript to be fired on the home page
+        $(document).ready(function() {
+            $('#myCarousel').carousel({
+              interval: 10000
+          })
+        });
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
